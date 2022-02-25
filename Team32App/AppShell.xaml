@@ -44,6 +44,8 @@
     -->
     <TabBar>
         <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="MainMenu" ContentTemplate="{DataTemplate local:MainMenu}" />
+        <ShellContent Route="Phrases" ContentTemplate="{DataTemplate local:Phrases}" />
     </TabBar>
 
 
