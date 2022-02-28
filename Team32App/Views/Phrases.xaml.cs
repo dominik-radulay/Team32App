@@ -12,6 +12,7 @@ namespace Team32App.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Phrases : ContentPage
     {
+        // comment
         public Phrases()
         {
             InitializeComponent();
