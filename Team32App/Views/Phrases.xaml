@@ -6,11 +6,11 @@
         <StackLayout Margin="10,10,10,10"  HorizontalOptions="Center">
             <Label Text="Greek Phrases" FontSize="Title" Margin="50,50,50,120" />
 
-            <Button Text="Level 1" Clicked="Button_Clicked"  ></Button>
-                <Button  Text="Level 2" Clicked="Button_Clicked"  ></Button>
-                <Button Text="Level 3" Clicked="Button_Clicked"  ></Button>
-                <Button Text="Level 4" Clicked="Button_Clicked"   ></Button>
-                <Button Text="Level 5" Clicked="Button_Clicked" ></Button>
+            <Button Text="Level 1" Clicked="LevelNavigate"  BindingContext="1"></Button>
+            <Button  Text="Level 2" Clicked="LevelNavigate"  BindingContext="2"></Button>
+            <Button Text="Level 3" Clicked="LevelNavigate"  BindingContext="3"></Button>
+            <Button Text="Level 4" Clicked="LevelNavigate"   BindingContext="4"></Button>
+            <Button Text="Level 5" Clicked="LevelNavigate" BindingContext="5"></Button>
 
             <Button  Margin="0,100,0,0" Text="Back to main menu" Clicked="Back_to_Menu">></Button>
         </StackLayout>

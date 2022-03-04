@@ -18,9 +18,10 @@ namespace Team32App.Views
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void LevelNavigate(object sender, EventArgs e)
         {
-
+            string data = ((Button)sender).BindingContext as string;
+            Shell.Current.GoToAsync("//PhrasesLevel"+ data);
         }
 
         private void Back_to_Menu(object sender, EventArgs e)

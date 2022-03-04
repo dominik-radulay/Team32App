@@ -2,6 +2,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:Team32App.Views"
+       xmlns:phraseslevels ="clr-namespace:Team32App.Views.PhrasesLevels"
        Title="Team32App"
        x:Class="Team32App.AppShell">
 
@@ -45,7 +46,20 @@
     <TabBar>
         <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
         <ShellContent Route="MainMenu" ContentTemplate="{DataTemplate local:MainMenu}" />
+
+        
+        
+        
+        <!--
+        Navigation for phrases levels
+        -->
         <ShellContent Route="Phrases" ContentTemplate="{DataTemplate local:Phrases}" />
+        <ShellContent Route="PhrasesLevel1" ContentTemplate="{DataTemplate phraseslevels:Level1}" />
+        <ShellContent Route="PhrasesLevel2" ContentTemplate="{DataTemplate phraseslevels:Level2}" />
+        <ShellContent Route="PhrasesLevel3" ContentTemplate="{DataTemplate phraseslevels:Level3}" />
+        <ShellContent Route="PhrasesLevel4" ContentTemplate="{DataTemplate phraseslevels:Level4}" />
+        <ShellContent Route="PhrasesLevel5" ContentTemplate="{DataTemplate phraseslevels:Level5}" />
+        
     </TabBar>
 
 
