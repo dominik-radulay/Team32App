@@ -21,12 +21,34 @@ namespace Team32App.Views
         private void LevelNavigate(object sender, EventArgs e)
         {
             string data = ((Button)sender).BindingContext as string;
-            Shell.Current.GoToAsync("//PhrasesLevel"+ data);
+
+            switch (Convert.ToInt32(data))
+            {
+                case 1:
+                    Navigation.PushAsync(new PhrasesLevels.Level1());
+                    break;
+                case 2:
+                    Navigation.PushAsync(new PhrasesLevels.Level2());
+                    break;
+                case 3:
+                    Navigation.PushAsync(new PhrasesLevels.Level3());
+                    break;
+                case 4:
+                    Navigation.PushAsync(new PhrasesLevels.Level4());
+                    break;
+                case 5:
+                    Navigation.PushAsync(new PhrasesLevels.Level5());
+                    break;
+
+                default:
+                    // code block
+                    break;
+            }
         }
 
         private void Back_to_Menu(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync("//MainMenu");
+             Navigation.PushAsync(new MainMenu());
 
         }
 
