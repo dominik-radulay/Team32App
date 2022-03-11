@@ -15,6 +15,8 @@ namespace Team32App.Views
         // comment
         public Phrases()
         {
+       
+
             InitializeComponent();
         }
 
@@ -51,6 +53,7 @@ namespace Team32App.Views
              Navigation.PushAsync(new MainMenu());
 
         }
+
 
 
     }

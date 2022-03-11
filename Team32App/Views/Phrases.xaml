@@ -2,17 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Team32App.Views.Phrases">
+
     <ContentPage.Content>
-        <StackLayout Margin="10,10,10,10"  HorizontalOptions="Center">
-            <Label Text="Greek Phrases" FontSize="Title" Margin="50,50,50,120" />
+        <!-- Margin is Left,Top,Right, Bottom -->
+        <StackLayout BackgroundColor="#FFFF">
+            <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="0,-25,0,0">
+                <Image>
+                    <Image.Source>
+                            <FontImageSource FontFamily="Material"
+                                 Color="White"
+                                 Glyph="&#xe80c;"
+                                     Size="70"/>
 
-            <Button Text="Level 1" Clicked="LevelNavigate"  BindingContext="1"></Button>
-            <Button  Text="Level 2" Clicked="LevelNavigate"  BindingContext="2"></Button>
-            <Button Text="Level 3" Clicked="LevelNavigate"  BindingContext="3"></Button>
-            <Button Text="Level 4" Clicked="LevelNavigate"   BindingContext="4"></Button>
-            <Button Text="Level 5" Clicked="LevelNavigate" BindingContext="5"></Button>
+                        </Image.Source>
+                </Image>
+                <Label Text="Greek Phrases" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                </StackLayout>
+            </Frame>
 
-            <Button  Margin="0,100,0,0" Text="Back to main menu" Clicked="Back_to_Menu">></Button>
+            <Button Text="Level 1" Clicked="LevelNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button  Text="Level 2" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="2"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="Level 3" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="3"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="Level 4" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="4"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="Level 5" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="5"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+
+            <Button  Margin="120,100,120,10" Text="Back to main menu" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
+                
+                
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

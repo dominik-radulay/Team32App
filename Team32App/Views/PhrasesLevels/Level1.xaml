@@ -2,12 +2,408 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Team32App.Views.PhrasesLevels.Level1">
-    
+
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Level1"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" >
+            <Label Text="Welcome to Level 1 of Greek Phrases !" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="15,5,15,15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+                <!-- Location in grid 1-->
+                <Frame 
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe925;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Greetings" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="0" Grid.Row="0" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+                
+                
+                <!-- Location in grid 1-->
+                <Frame 
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe88b;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Time" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="1" Grid.Row="0" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <!-- Location in grid 1-->
+            <Frame 
+                   Grid.Column="2"
+                   Grid.Row="0"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe2e6;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Agreeing" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="2" Grid.Row="0" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <!-- Location in grid 1-->
+                <Frame 
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe99a;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Denying" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="0" 
+                        Grid.Row="1" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe939;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="What is your name" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="1" 
+                        Grid.Row="1" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="2"
+                   Grid.Row="1"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe94c;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="How are you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="2" 
+                        Grid.Row="1" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe87c;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="My name is..." HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="0" 
+                        Grid.Row="2" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+                
+                        <Frame 
+                   Grid.Column="1"
+                   Grid.Row="2"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe8b4;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Im from..." HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="1" 
+                        Grid.Row="2" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="2"
+                   Grid.Row="2"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe56c;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Im hungry" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="2" 
+                        Grid.Row="2" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="0"
+                   Grid.Row="3"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xea70;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Thank you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="0" 
+                        Grid.Row="3" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="1"
+                   Grid.Row="3"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe549;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="I need an accomodation" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="1" 
+                        Grid.Row="3" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="2"
+                   Grid.Row="3"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe90e;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="I need Legal help" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="2" 
+                        Grid.Row="3" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="0"
+                   Grid.Row="4"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe91d;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="I have a pet" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="0" 
+                        Grid.Row="4" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="1"
+                   Grid.Row="4"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe1a3;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="I need to charge" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="1" 
+                        Grid.Row="4" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+                <Frame 
+                   Grid.Column="2"
+                   Grid.Row="4"
+                   BackgroundColor="#2196F3"  CornerRadius="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
+                        <Image>
+                            <Image.Source>
+                                <!-- Image-->
+                                <FontImageSource Glyph="&#xe63d;" 
+                                                 
+                                                 FontFamily="Material"   Color="White"     Size="50"/>
+                            </Image.Source>
+                        </Image>
+                        <!-- Text-->
+                        <Label Text="Restroom" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <!-- Location in grid 2-->
+                <Button Grid.Column="2" 
+                        Grid.Row="4" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand" 
+                        Clicked="Back_to_Menu" />
+
+
+
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
