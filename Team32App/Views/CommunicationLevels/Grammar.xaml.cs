@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Team32App.Views.Communication
+namespace Team32App.Views.CommunicationLevels
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Grammar : ContentPage

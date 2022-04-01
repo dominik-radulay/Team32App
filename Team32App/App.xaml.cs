@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 using Team32App.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,6 +12,7 @@ namespace Team32App
 
         public App()
         {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.InstalledUICulture;
             InitializeComponent();
             MainPage = new NavigationPage(new MainPage());
         }

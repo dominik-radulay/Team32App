@@ -20,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="AppResources.fr.resx" />
+    <EmbeddedResource Remove="AppResources.resx" />
     <EmbeddedResource Remove="Views\FlyoutPage1.xaml" />
     <EmbeddedResource Remove="Views\FlyoutPage1Detail.xaml" />
     <EmbeddedResource Remove="Views\FlyoutPage1Flyout.xaml" />
@@ -41,6 +43,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Resources\AppResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Views\PhrasesLevels\Level1.xaml.cs">
       <DependentUpon>Level1.xaml</DependentUpon>
     </Compile>
@@ -49,6 +56,10 @@
   <ItemGroup>
     <EmbeddedResource Update="MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Communication.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -72,6 +83,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Phrases.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PhrasesLevels\LearnWord.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\PhrasesLevels\Level1.xaml">

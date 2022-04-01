@@ -47,7 +47,8 @@
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
                         VerticalOptions="FillAndExpand" 
-                        Clicked="Back_to_Menu" />
+                        Clicked="WordNavigate"
+                        BindingContext="1"/>
                 
                 
                 <!-- Location in grid 1-->

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Team32App.Resources;
+using System.Globalization;
+using System.Threading;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -35,12 +38,12 @@ namespace Team32App.Views
                 case 3:
                     Navigation.PushAsync(new PhrasesLevels.Level3());
                     break;
-                case 4:
-                    Navigation.PushAsync(new PhrasesLevels.Level4());
-                    break;
-                case 5:
-                    Navigation.PushAsync(new PhrasesLevels.Level5());
-                    break;
+               // case 4:
+                //    Navigation.PushAsync(new PhrasesLevels.Level4());
+                  //  break;
+                //case 5:
+                  //  Navigation.PushAsync(new PhrasesLevels.Level5());
+                    //break;
 
                 default:
                     // code block
