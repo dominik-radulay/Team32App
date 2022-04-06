@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" >
-                <Label x:Name="headerofword" Text="test" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                <Label x:Name="headerofword" Text="randomness" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
             </Frame>
         </StackLayout>
     </ContentPage.Content>

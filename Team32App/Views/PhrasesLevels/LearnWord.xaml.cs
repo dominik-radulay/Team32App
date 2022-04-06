@@ -15,15 +15,13 @@ namespace Team32App.Views.PhrasesLevels
         public LearnWord()
         {
             InitializeComponent();
+            Settext("1");
         }
-
-
-        static String[] Level1 = {"Greetings","Time","Agreeing","Denying","What is your name?", "How are you?", "My name is...", "Im from...", "Im hungry", "Thank you", "I need an accomodation", "I need Legal help", "I have a pet", "I need to charge my phone", "Where is the restrom?" };
         
 
-        private void Settext (object sender, EventArgs e)
+        private void Settext (string Information)
         {
-            headerofword.Text = "Test";
+            headerofword.Text = "Test from C";
 
         }
 

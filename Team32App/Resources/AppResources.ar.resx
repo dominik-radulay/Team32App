@@ -154,7 +154,7 @@
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Charge" xml:space="preserve">
-    <value>I need charge</value>
+    <value>I need to charge my phone</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Denying" xml:space="preserve">
@@ -213,7 +213,23 @@
     <value>What time is it?</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Welcome1" xml:space="preserve">
+    <value>Welcome to Level 1 of Greek Phrases !</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Welcome2" xml:space="preserve">
+    <value>Welcome to Level 2 of Greek Phrases !</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Welcome3" xml:space="preserve">
+    <value>Welcome to Level 3 of Greek Phrases !</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_YourName" xml:space="preserve">
+    <value>What is your name?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_YourName1" xml:space="preserve">
     <value>What is your name?</value>
     <comment>Phrases</comment>
   </data>

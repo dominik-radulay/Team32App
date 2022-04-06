@@ -124,7 +124,7 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I need an Accomodation.
+        ///   Looks up a localized string similar to I need an Accommodation.
         /// </summary>
         internal static string Phrases_Accomodation {
             get {
@@ -142,7 +142,7 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I need charge.
+        ///   Looks up a localized string similar to I need to charge my phone.
         /// </summary>
         internal static string Phrases_Charge {
             get {
@@ -178,7 +178,7 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Im hungry.
+        ///   Looks up a localized string similar to I&apos;m hungry.
         /// </summary>
         internal static string Phrases_Hungry {
             get {
@@ -187,7 +187,7 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Im from....
+        ///   Looks up a localized string similar to I&apos;m from....
         /// </summary>
         internal static string Phrases_ImFrom {
             get {
@@ -273,6 +273,33 @@ namespace Team32App.Resources {
         internal static string Phrases_Time {
             get {
                 return ResourceManager.GetString("Phrases_Time", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to Level 1 of Greek Phrases!.
+        /// </summary>
+        internal static string Phrases_Welcome1 {
+            get {
+                return ResourceManager.GetString("Phrases_Welcome1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to Level 2 of Greek Phrases!.
+        /// </summary>
+        internal static string Phrases_Welcome2 {
+            get {
+                return ResourceManager.GetString("Phrases_Welcome2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to Level 3 of Greek Phrases!.
+        /// </summary>
+        internal static string Phrases_Welcome3 {
+            get {
+                return ResourceManager.GetString("Phrases_Welcome3", resourceCulture);
             }
         }
         

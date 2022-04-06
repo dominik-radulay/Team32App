@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:Team32App.Resources"
              x:Class="Team32App.Views.PhrasesLevels.Level1">
 
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" >
-            <Label Text="Welcome to Level 1 of Greek Phrases !" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                <Label  x:Name="MainHeader" Text="{x:Static resource:AppResources.Phrases_Welcome1}" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
             <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="15,5,15,15">
                 <Grid.RowDefinitions>
@@ -33,22 +34,22 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe925;" 
+                                <FontImageSource x:Name="Image_1x1" Glyph="&#xe925;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Greetings" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_1x1" Text="{x:Static resource:AppResources.Phrases_Greetings}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="0" Grid.Row="0" 
+                <Button x:Name="Button_1x1" Grid.Column="0" Grid.Row="0" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
                         VerticalOptions="FillAndExpand" 
-                        Clicked="WordNavigate"
-                        BindingContext="1"/>
+                        Clicked="LearnWord"
+                        BindingContext=""/>
                 
                 
                 <!-- Location in grid 1-->
@@ -60,17 +61,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe88b;" 
+                                <FontImageSource x:Name="Image_1x2" Glyph="&#xe88b;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Time" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_1x2" Text="Time" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="1" Grid.Row="0" 
+                <Button x:Name="Button_1x2" Grid.Column="1" Grid.Row="0" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
                         VerticalOptions="FillAndExpand" 
@@ -85,17 +86,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe2e6;" 
+                                <FontImageSource x:Name="Image_1x3" Glyph="&#xe2e6;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Agreeing" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_1x3" Text="Agreeing" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="2" Grid.Row="0" 
+                <Button x:Name="Button_1x3" Grid.Column="2" Grid.Row="0" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
                         VerticalOptions="FillAndExpand" 
@@ -110,17 +111,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe99a;" 
+                                <FontImageSource x:Name="Image_2x1" Glyph="&#xe99a;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Denying" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_2x1" Text="Denying" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="0" 
+                <Button x:Name="Button_2x1" Grid.Column="0" 
                         Grid.Row="1" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -135,17 +136,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe939;" 
+                                <FontImageSource x:Name="Image_2x2" Glyph="&#xe939;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="What is your name" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_2x2" Text="What is your name" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="1" 
+                <Button x:Name="Button_2x2" Grid.Column="1" 
                         Grid.Row="1" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -160,17 +161,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe94c;" 
+                                <FontImageSource x:Name="Image_2x3" Glyph="&#xe94c;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="How are you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_2x3" Text="How are you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="2" 
+                <Button x:Name="Button_2x3" Grid.Column="2" 
                         Grid.Row="1" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -185,17 +186,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe87c;" 
+                                <FontImageSource x:Name="Image_3x1" Glyph="&#xe87c;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="My name is..." HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_3x1" Text="My name is..." HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="0" 
+                <Button x:Name="Button_3x1" Grid.Column="0" 
                         Grid.Row="2" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -210,17 +211,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe8b4;" 
+                                <FontImageSource x:Name="Image_3x2" Glyph="&#xe8b4;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Im from..." HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_3x2" Text="Im from..." HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="1" 
+                <Button x:Name="Button_3x2" Grid.Column="1" 
                         Grid.Row="2" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -235,17 +236,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe56c;" 
+                                <FontImageSource x:Name="Image_3x3" Glyph="&#xe56c;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Im hungry" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_3x3" Text="Im hungry" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="2" 
+                <Button x:Name="Button_3x3" Grid.Column="2" 
                         Grid.Row="2" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -260,17 +261,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xea70;" 
+                                <FontImageSource x:Name="Image_4x1" Glyph="&#xea70;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Thank you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_4x1" Text="Thank you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="0" 
+                <Button x:Name="Button_4x1" Grid.Column="0" 
                         Grid.Row="3" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -285,17 +286,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe549;" 
+                                <FontImageSource x:Name="Image_4x2" Glyph="&#xe549;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="I need an accomodation" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_4x2" Text="I need an accomodation" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="1" 
+                <Button x:Name="Button_4x2" Grid.Column="1" 
                         Grid.Row="3" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -310,17 +311,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe90e;" 
+                                <FontImageSource x:Name="Image_4x3" Glyph="&#xe90e;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="I need Legal help" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_4x3" Text="I need Legal help" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="2" 
+                <Button x:Name="Button_4x3" Grid.Column="2" 
                         Grid.Row="3" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -335,17 +336,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe91d;" 
+                                <FontImageSource x:Name="Image_5x1" Glyph="&#xe91d;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="I have a pet" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_5x1" Text="I have a pet" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="0" 
+                <Button x:Name="Button_5x1" Grid.Column="0" 
                         Grid.Row="4" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -360,17 +361,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe1a3;" 
+                                <FontImageSource x:Name="Image_5x2" Glyph="&#xe1a3;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="I need to charge" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_5x2" Text="I need to charge" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="1" 
+                <Button x:Name="Button_5x2" Grid.Column="1" 
                         Grid.Row="4" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
@@ -385,17 +386,17 @@
                         <Image>
                             <Image.Source>
                                 <!-- Image-->
-                                <FontImageSource Glyph="&#xe63d;" 
+                                <FontImageSource x:Name="Image_5x3" Glyph="&#xe63d;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
                         <!-- Text-->
-                        <Label Text="Restroom" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
+                        <Label x:Name="Text_5x3" Text="Restroom" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
                 <!-- Location in grid 2-->
-                <Button Grid.Column="2" 
+                <Button x:Name="Button_5x3" Grid.Column="2" 
                         Grid.Row="4" 
                         BackgroundColor="Transparent" 
                         HorizontalOptions="FillAndExpand" 
