@@ -15,14 +15,6 @@ namespace Team32App.Views
         public Contacts()
         {
             InitializeComponent();
-
-            languagePicker.Items.Add("English");
-            languagePicker.Items.Add("Greek");
-            languagePicker.Items.Add("XXX");
-
         }
-        
-
     }
-
 }
