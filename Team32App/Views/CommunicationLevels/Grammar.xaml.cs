@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Team32App.Views.PhrasesLevels
+namespace Team32App.Views.CommunicationLevels
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Level4 : ContentPage
+    public partial class Grammar : ContentPage
     {
-        public Level4()
+        public Grammar()
         {
             InitializeComponent();
         }

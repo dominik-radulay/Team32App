@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:Team32App.Resources"
              x:Class="Team32App.Views.Phrases">
 
     <ContentPage.Content>
@@ -17,17 +18,17 @@
 
                         </Image.Source>
                 </Image>
-                <Label Text="Greek Phrases" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Phrases_Heading}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
 
-            <Button Text="Level 1" Clicked="LevelNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button  Text="Level 2" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="2"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button Text="Level 3" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="3"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button Text="Level 4" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="4"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button Text="Level 5" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="5"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="{x:Static resource:AppResources.Phrases_Level1}" Clicked="LevelNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="{x:Static resource:AppResources.Phrases_Level2}" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="2"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="{x:Static resource:AppResources.Phrases_Level3}" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="3"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <!--  <Button Text="Level 4" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="4"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="Level 5" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="5"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>-->
 
-            <Button  Margin="120,100,120,10" Text="Back to main menu" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
+            <Button  Margin="120,100,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
                 
                 
             </Button>

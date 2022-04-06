@@ -10,11 +10,20 @@ using Xamarin.Forms.Xaml;
 namespace Team32App.Views.PhrasesLevels
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Level2 : ContentPage
+    public partial class LearnWord : ContentPage
     {
-        public Level2()
+        public LearnWord(string phrase, string greek)
         {
+
             InitializeComponent();
+            InGreek.Text = greek;
+            Header.Text = phrase;
+        }
+
+        private void Back_to_Menu(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainMenu());
+
         }
     }
 }

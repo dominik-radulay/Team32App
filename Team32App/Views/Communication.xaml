@@ -3,10 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Team32App.Views.Communication">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!  This is Communications page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <!-- Margin is Left,Top,Right, Bottom -->
+        <StackLayout BackgroundColor="#FFFF">
+            <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="0,-25,0,0">
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="Material"
+                                 Color="White"
+                                 Glyph="&#xe80c;"
+                                     Size="70"/>
+
+                        </Image.Source>
+                    </Image>
+                    <Label Text="Communication" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Basic Grammar" Clicked="LevelNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button  Text="Correct suffix use for basic words" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="2"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="Formal words to use" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="3"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+
+            <Button  Margin="120,100,120,10" Text="Back to main menu" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
+
+
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
