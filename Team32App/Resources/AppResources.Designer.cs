@@ -124,6 +124,87 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to I need an Accomodation.
+        /// </summary>
+        internal static string Phrases_Accomodation {
+            get {
+                return ResourceManager.GetString("Phrases_Accomodation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agreeing.
+        /// </summary>
+        internal static string Phrases_Agreeing {
+            get {
+                return ResourceManager.GetString("Phrases_Agreeing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I need charge.
+        /// </summary>
+        internal static string Phrases_Charge {
+            get {
+                return ResourceManager.GetString("Phrases_Charge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Denying.
+        /// </summary>
+        internal static string Phrases_Denying {
+            get {
+                return ResourceManager.GetString("Phrases_Denying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Greetings.
+        /// </summary>
+        internal static string Phrases_Greetings {
+            get {
+                return ResourceManager.GetString("Phrases_Greetings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How are you?.
+        /// </summary>
+        internal static string Phrases_HowAreYou {
+            get {
+                return ResourceManager.GetString("Phrases_HowAreYou", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Im hungry.
+        /// </summary>
+        internal static string Phrases_Hungry {
+            get {
+                return ResourceManager.GetString("Phrases_Hungry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Im from....
+        /// </summary>
+        internal static string Phrases_ImFrom {
+            get {
+                return ResourceManager.GetString("Phrases_ImFrom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I need a legal help.
+        /// </summary>
+        internal static string Phrases_Legal {
+            get {
+                return ResourceManager.GetString("Phrases_Legal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Level 1.
         /// </summary>
         internal static string Phrases_Level1 {
@@ -147,6 +228,60 @@ namespace Team32App.Resources {
         internal static string Phrases_Level3 {
             get {
                 return ResourceManager.GetString("Phrases_Level3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My name is....
+        /// </summary>
+        internal static string Phrases_MyNameIs {
+            get {
+                return ResourceManager.GetString("Phrases_MyNameIs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I have a pet.
+        /// </summary>
+        internal static string Phrases_Pet {
+            get {
+                return ResourceManager.GetString("Phrases_Pet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where is the Restroom?.
+        /// </summary>
+        internal static string Phrases_Restroom {
+            get {
+                return ResourceManager.GetString("Phrases_Restroom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thank you.
+        /// </summary>
+        internal static string Phrases_ThankYou {
+            get {
+                return ResourceManager.GetString("Phrases_ThankYou", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What time is it?.
+        /// </summary>
+        internal static string Phrases_Time {
+            get {
+                return ResourceManager.GetString("Phrases_Time", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What is your name?.
+        /// </summary>
+        internal static string Phrases_YourName {
+            get {
+                return ResourceManager.GetString("Phrases_YourName", resourceCulture);
             }
         }
         

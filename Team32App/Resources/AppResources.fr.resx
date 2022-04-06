@@ -119,41 +119,114 @@
   </resheader>
   <data name="WelcomeText" xml:space="preserve">
     <value>Bienvenue sur la version française de cette application</value>
+    <comment>General</comment>
   </data>
   <data name="ChangeLanguage" xml:space="preserve">
     <value>Changer de langue</value>
+    <comment>General</comment>
   </data>
   <data name="SelectLanguage" xml:space="preserve">
     <value>Sélectionner la langue</value>
+    <comment>General</comment>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Sauvegarder</value>
+    <comment>General</comment>
   </data>
   <data name="BackToMainMenu" xml:space="preserve">
     <value>Retour au menu principal</value>
+    <comment>General</comment>
   </data>
   <data name="Communication" xml:space="preserve">
     <value>la communication</value>
+    <comment>Phrases</comment>
   </data>
   <data name="Contacts" xml:space="preserve">
     <value>Contacts</value>
+    <comment>General</comment>
   </data>
   <data name="Locations" xml:space="preserve">
     <value>Emplacements</value>
+    <comment>General</comment>
   </data>
   <data name="MainMenu" xml:space="preserve">
     <value>Menu principal</value>
+    <comment>General</comment>
   </data>
   <data name="Phrases" xml:space="preserve">
     <value>Phrases</value>
+    <comment>General</comment>
+  </data>
+  <data name="Phrases_Accomodation" xml:space="preserve">
+    <value>I need an Accomodation</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Agreeing" xml:space="preserve">
+    <value>Agreeing</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Charge" xml:space="preserve">
+    <value>I need charge</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Denying" xml:space="preserve">
+    <value>Denying</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Greetings" xml:space="preserve">
+    <value>Greetings</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_HowAreYou" xml:space="preserve">
+    <value>How are you?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Hungry" xml:space="preserve">
+    <value>Im hungry</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_ImFrom" xml:space="preserve">
+    <value>Im from...</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Legal" xml:space="preserve">
+    <value>I need a legal help</value>
+    <comment>Phrases</comment>
   </data>
   <data name="Phrases_Level1" xml:space="preserve">
     <value>Niveau 1</value>
+    <comment>Phrases</comment>
   </data>
   <data name="Phrases_Level2" xml:space="preserve">
     <value>Niveau 2</value>
+    <comment>Phrases</comment>
   </data>
   <data name="Phrases_Level3" xml:space="preserve">
     <value>Niveau 3</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_MyNameIs" xml:space="preserve">
+    <value>My name is...</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Pet" xml:space="preserve">
+    <value>I have a pet</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Restroom" xml:space="preserve">
+    <value>Where is the Restroom?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_ThankYou" xml:space="preserve">
+    <value>Thank you</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Time" xml:space="preserve">
+    <value>What time is it?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_YourName" xml:space="preserve">
+    <value>What is your name?</value>
+    <comment>Phrases</comment>
   </data>
 </root>
