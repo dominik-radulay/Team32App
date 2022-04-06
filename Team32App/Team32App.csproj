@@ -48,6 +48,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resources\GreekPhrases.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GreekPhrases.resx</DependentUpon>
+    </Compile>
     <Compile Update="Views\PhrasesLevels\Level1.xaml.cs">
       <DependentUpon>Level1.xaml</DependentUpon>
     </Compile>
@@ -60,6 +65,10 @@
     <EmbeddedResource Update="Resources\AppResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\GreekPhrases.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GreekPhrases.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Communication.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

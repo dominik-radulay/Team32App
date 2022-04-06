@@ -53,7 +53,7 @@ namespace Team32App.Views
             }*/
         }
 
-        private void Back_to_Menu()
+        private void Back_to_Menu(object sender, EventArgs e)
         {
              Navigation.PushAsync(new MainMenu());
 

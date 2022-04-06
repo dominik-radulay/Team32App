@@ -165,6 +165,10 @@
     <value>Greetings</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Heading" xml:space="preserve">
+    <value>Greek Phrases</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_HowAreYou" xml:space="preserve">
     <value>How are you?</value>
     <comment>Phrases</comment>
@@ -176,6 +180,9 @@
   <data name="Phrases_ImFrom" xml:space="preserve">
     <value>Im from...</value>
     <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Info" xml:space="preserve">
+    <value>This word is pronounced in Greek:</value>
   </data>
   <data name="Phrases_Legal" xml:space="preserve">
     <value>I need a legal help</value>
@@ -226,10 +233,6 @@
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_YourName" xml:space="preserve">
-    <value>What is your name?</value>
-    <comment>Phrases</comment>
-  </data>
-  <data name="Phrases_YourName1" xml:space="preserve">
     <value>What is your name?</value>
     <comment>Phrases</comment>
   </data>

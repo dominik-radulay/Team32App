@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 using Team32App.Resources;
 using Xamarin.Forms;
@@ -31,7 +32,13 @@ namespace Team32App.Views.PhrasesLevels
 
                     Image_1x1.Glyph = "\uE925";
                     Text_1x1.Text =  AppResources.Phrases_Greetings;
-                    Button_1x1.BindingContext = "Greetings";
+                    Button_1x1.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Greetings,
+                        greek = GreekPhrases.Phrases_Greetings,
+
+
+                    };
 
                     Image_1x2.Glyph = "\uE88b";
                     Text_1x2.Text = AppResources.Phrases_Time;
@@ -69,8 +76,17 @@ namespace Team32App.Views.PhrasesLevels
 
         void LearnWord(object sender, EventArgs e)
         {
-            string data = ((Button)sender).BindingContext as string;
-            Navigation.PushAsync(new PhrasesLevels.LearnWord(data), true);
+            var Phrase = new Label();
+            Phrase.SetBinding(Label.TextProperty, "phrase");
+            Phrase.BindingContext = ((Button)sender).BindingContext;
+            //Debug.WriteLine(Phrase.Text);
+
+            var Greek = new Label();
+            Greek.SetBinding(Label.TextProperty, "greek");
+            Greek.BindingContext = ((Button)sender).BindingContext;
+            //Debug.WriteLine(Greek.Text);
+
+            Navigation.PushAsync(new PhrasesLevels.LearnWord(Phrase.Text, Greek.Text), true);
 
         }
 

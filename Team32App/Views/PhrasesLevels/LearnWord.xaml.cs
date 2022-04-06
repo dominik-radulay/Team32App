@@ -12,20 +12,9 @@ namespace Team32App.Views.PhrasesLevels
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LearnWord : ContentPage
     {
-        public LearnWord()
+        public LearnWord(string phrase, string greek)
         {
             InitializeComponent();
-            Settext("1");
         }
-        
-
-        private void Settext (string Information)
-        {
-            headerofword.Text = "Test from C";
-
-        }
-
-
-
     }
 }

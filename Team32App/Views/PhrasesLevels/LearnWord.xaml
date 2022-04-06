@@ -1,12 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:Team32App.Resources"
              x:Class="Team32App.Views.PhrasesLevels.LearnWord">
     <ContentPage.Content>
-        <StackLayout>
-            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" >
-                <Label x:Name="headerofword" Text="randomness" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <!-- Margin is Left,Top,Right, Bottom -->
+        <StackLayout BackgroundColor="#FFFF">
+            <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="0,-25,0,0">
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="Material"
+                                 Color="White"
+                                 Glyph="&#xe80c;"
+                                     Size="70"/>
+
+                        </Image.Source>
+                    </Image>
+                    <Label x:Name="Header" Text="" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                </StackLayout>
             </Frame>
+
+            <Label x:Name="phrase" Text="" FontSize="16" Padding="30,0,30,0"/> -->
+
+            <Button  Margin="120,100,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
+
+
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>  

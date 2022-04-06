@@ -18,7 +18,7 @@
 
                         </Image.Source>
                 </Image>
-                <Label Text="Greek Phrases" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Phrases_Heading}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
 

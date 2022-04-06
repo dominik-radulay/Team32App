@@ -169,6 +169,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Greek Phrases.
+        /// </summary>
+        internal static string Phrases_Heading {
+            get {
+                return ResourceManager.GetString("Phrases_Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to How are you?.
         /// </summary>
         internal static string Phrases_HowAreYou {
@@ -192,6 +201,15 @@ namespace Team32App.Resources {
         internal static string Phrases_ImFrom {
             get {
                 return ResourceManager.GetString("Phrases_ImFrom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This word is pronounced in Greek:.
+        /// </summary>
+        internal static string Phrases_Info {
+            get {
+                return ResourceManager.GetString("Phrases_Info", resourceCulture);
             }
         }
         

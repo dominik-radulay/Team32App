@@ -177,6 +177,10 @@
     <value>Les salutations</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Heading" xml:space="preserve">
+    <value>Expressions Grecques</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_HowAreYou" xml:space="preserve">
     <value>Comment vas-tu?</value>
     <comment>Phrases</comment>
@@ -188,6 +192,9 @@
   <data name="Phrases_ImFrom" xml:space="preserve">
     <value>Je viens de...</value>
     <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Info" xml:space="preserve">
+    <value>Ce mot se prononce en Grec :</value>
   </data>
   <data name="Phrases_Legal" xml:space="preserve">
     <value>J'ai besoin d'une aide juridique</value>
@@ -239,10 +246,6 @@
   </data>
   <data name="Phrases_YourName" xml:space="preserve">
     <value>Quel est ton nom?</value>
-    <comment>Phrases</comment>
-  </data>
-  <data name="Phrases_YourName1" xml:space="preserve">
-    <value>What is your name?</value>
     <comment>Phrases</comment>
   </data>
 </root>
