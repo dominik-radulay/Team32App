@@ -14,7 +14,16 @@ namespace Team32App.Views.PhrasesLevels
     {
         public LearnWord(string phrase, string greek)
         {
+
             InitializeComponent();
+            InGreek.Text = greek;
+            Header.Text = phrase;
+        }
+
+        private void Back_to_Menu(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainMenu());
+
         }
     }
 }

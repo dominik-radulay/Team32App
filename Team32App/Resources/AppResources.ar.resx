@@ -146,46 +146,47 @@
     <comment>General</comment>
   </data>
   <data name="Phrases_Accomodation" xml:space="preserve">
-    <value>I need an Accomodation</value>
+    <value>أحتاج إلى إقامة</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Agreeing" xml:space="preserve">
-    <value>Agreeing</value>
+    <value>الموافقة</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Charge" xml:space="preserve">
-    <value>I need to charge my phone</value>
+    <value>أنا بحاجة لشحن هاتفي</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Denying" xml:space="preserve">
-    <value>Denying</value>
+    <value>إنكار</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Greetings" xml:space="preserve">
-    <value>Greetings</value>
+    <value>تحيات</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Heading" xml:space="preserve">
-    <value>Greek Phrases</value>
+    <value>عبارات يونانية</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_HowAreYou" xml:space="preserve">
-    <value>How are you?</value>
+    <value>كيف حالك؟</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Hungry" xml:space="preserve">
-    <value>Im hungry</value>
+    <value>إنني جائع أنا جوعان</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_ImFrom" xml:space="preserve">
-    <value>Im from...</value>
+    <value>انا من...</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Info" xml:space="preserve">
-    <value>This word is pronounced in Greek:</value>
+    <value>تُلفظ هذه الكلمة باليونانية:</value>
+    <comment>Phrases</comment>
   </data>
   <data name="Phrases_Legal" xml:space="preserve">
-    <value>I need a legal help</value>
+    <value>أحتاج إلى مساعدة قانونية</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Level1" xml:space="preserve">
@@ -201,39 +202,39 @@
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_MyNameIs" xml:space="preserve">
-    <value>My name is...</value>
+    <value>اسمي هو...</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Pet" xml:space="preserve">
-    <value>I have a pet</value>
+    <value>لدي حيوان أليف</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Restroom" xml:space="preserve">
-    <value>Where is the Restroom?</value>
+    <value>أين المرحاض؟</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_ThankYou" xml:space="preserve">
-    <value>Thank you</value>
+    <value>شكرا لك</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Time" xml:space="preserve">
-    <value>What time is it?</value>
+    <value>أي ساعة؟</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Welcome1" xml:space="preserve">
-    <value>Welcome to Level 1 of Greek Phrases !</value>
+    <value>مرحبًا بك في المستوى 1 من العبارات اليونانية!</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Welcome2" xml:space="preserve">
-    <value>Welcome to Level 2 of Greek Phrases !</value>
+    <value>مرحبًا بك في المستوى 2 من العبارات اليونانية!</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Welcome3" xml:space="preserve">
-    <value>Welcome to Level 3 of Greek Phrases !</value>
+    <value>مرحبًا بك في المستوى 3 من العبارات اليونانية!</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_YourName" xml:space="preserve">
-    <value>What is your name?</value>
+    <value>ما اسمك؟</value>
     <comment>Phrases</comment>
   </data>
   <data name="Save" xml:space="preserve">

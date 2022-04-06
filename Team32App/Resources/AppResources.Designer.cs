@@ -205,7 +205,7 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This word is pronounced in Greek:.
+        ///   Looks up a localized string similar to This phrase is pronounced in Greek:.
         /// </summary>
         internal static string Phrases_Info {
             get {

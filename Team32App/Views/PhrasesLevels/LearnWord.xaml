@@ -8,21 +8,14 @@
         <StackLayout BackgroundColor="#FFFF">
             <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
                 <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="0,-25,0,0">
-                    <Image>
-                        <Image.Source>
-                            <FontImageSource FontFamily="Material"
-                                 Color="White"
-                                 Glyph="&#xe80c;"
-                                     Size="70"/>
-
-                        </Image.Source>
-                    </Image>
                     <Label x:Name="Header" Text="" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
 
-            <Label x:Name="phrase" Text="" FontSize="16" Padding="30,0,30,0"/> -->
-
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="30,150,30,0">
+                <Label   Text="{x:Static resource:AppResources.Phrases_Info}" FontSize="16" Padding="30,0,30,0" HorizontalTextAlignment="Center" />
+                <Label x:Name="InGreek" Text="" FontSize="36" Padding="30,0,30,0" HorizontalTextAlignment="Center"  FontAttributes="Bold"/> 
+            </StackLayout>
             <Button  Margin="120,100,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
 
 

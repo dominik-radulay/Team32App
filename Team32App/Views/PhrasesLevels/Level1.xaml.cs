@@ -28,28 +28,108 @@ namespace Team32App.Views.PhrasesLevels
             {
                 case 1:
 
+                    // Page Header
                     MainHeader.Text = AppResources.Phrases_Welcome1;
 
+                    // First Line
                     Image_1x1.Glyph = "\uE925";
                     Text_1x1.Text =  AppResources.Phrases_Greetings;
                     Button_1x1.BindingContext = new
                     {
                         phrase = AppResources.Phrases_Greetings,
                         greek = GreekPhrases.Phrases_Greetings,
-
-
                     };
 
                     Image_1x2.Glyph = "\uE88b";
                     Text_1x2.Text = AppResources.Phrases_Time;
-                    Button_1x2.BindingContext = "Time";
+                    Button_1x2.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Time,
+                        greek = GreekPhrases.Phrases_Time,
+                    };
 
                     Image_1x3.Glyph = "\uE2e6";
                     Text_1x3.Text = AppResources.Phrases_Agreeing;
-                    Button_1x3.BindingContext = "Agreeing";
+                    Button_1x3.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Agreeing,
+                        greek = GreekPhrases.Phrases_Agreeing,
+                    };
 
+                    // Second Line
+                    Image_2x1.Glyph = "\ue99a";
+                    Text_2x1.Text = AppResources.Phrases_Denying;
+                    Button_2x1.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Denying,
+                        greek = GreekPhrases.Phrases_Denying,
+                    };
 
+                    Image_2x2.Glyph = "\ue939";
+                    Text_2x2.Text = AppResources.Phrases_YourName;
+                    Button_2x2.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_YourName,
+                        greek = GreekPhrases.Phrases_YourName,
+                    };
 
+                    Image_2x3.Glyph = "\ue94c";
+                    Text_2x3.Text = AppResources.Phrases_HowAreYou;
+                    Button_2x3.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_HowAreYou,
+                        greek = GreekPhrases.Phrases_HowAreYou,
+                    };
+
+                    // Third Line
+                    Image_3x1.Glyph = "\ue87c";
+                    Text_3x1.Text = AppResources.Phrases_MyNameIs;
+                    Button_3x1.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_MyNameIs,
+                        greek = GreekPhrases.Phrases_MyNameIs,
+                    };
+
+                    Image_3x2.Glyph = "\ue8b4";
+                    Text_3x2.Text = AppResources.Phrases_ImFrom;
+                    Button_3x2.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_ImFrom,
+                        greek = GreekPhrases.Phrases_ImFrom,
+                    };
+
+                    Image_3x3.Glyph = "\ue56c";
+                    Text_3x3.Text = AppResources.Phrases_Hungry;
+                    Button_3x3.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Hungry,
+                        greek = GreekPhrases.Phrases_Hungry,
+                    };
+
+                    // Fourth Line
+                    Image_4x1.Glyph = "\uea70";
+                    Text_4x1.Text = AppResources.Phrases_ThankYou;
+                    Button_4x1.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_ThankYou,
+                        greek = GreekPhrases.Phrases_ThankYou,
+                    };
+
+                    Image_4x2.Glyph = "\ue549";
+                    Text_4x2.Text = AppResources.Phrases_Accomodation;
+                    Button_4x2.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Accomodation,
+                        greek = GreekPhrases.Phrases_Accomodation,
+                    };
+
+                    Image_4x3.Glyph = "\ue90e";
+                    Text_4x3.Text = AppResources.Phrases_Legal;
+                    Button_4x3.BindingContext = new
+                    {
+                        phrase = AppResources.Phrases_Legal,
+                        greek = GreekPhrases.Phrases_Legal,
+                    };
 
 
 

@@ -117,7 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Phrases_Accomodation" xml:space="preserve">
+    <value>Χρειάζομαι ένα κατάλυμα
+[:Chreiázomai éna katályma:]</value>
+  </data>
+  <data name="Phrases_Agreeing" xml:space="preserve">
+    <value>Συμφωνώντας
+[:Symfonóntas:]</value>
+  </data>
+  <data name="Phrases_Charge" xml:space="preserve">
+    <value>Πρέπει να φορτίσω το τηλέφωνό μου
+[:Prépei na fortíso to tiléfonó mou:]</value>
+  </data>
+  <data name="Phrases_Denying" xml:space="preserve">
+    <value>Αρνούμενος
+[:Arnoúmenos:]</value>
+  </data>
   <data name="Phrases_Greetings" xml:space="preserve">
-    <value>Χαιρετίσματα</value>
+    <value>Χαιρετίσματα
+[:Chairetísmata:]</value>
+  </data>
+  <data name="Phrases_HowAreYou" xml:space="preserve">
+    <value>Πώς είσαι;
+[:Pós eísai?:]</value>
+  </data>
+  <data name="Phrases_Hungry" xml:space="preserve">
+    <value>πεινάω
+[:peináo:]</value>
+  </data>
+  <data name="Phrases_ImFrom" xml:space="preserve">
+    <value>Είμαι από...
+[:Eímai apó...:]</value>
+  </data>
+  <data name="Phrases_Legal" xml:space="preserve">
+    <value>Χρειάζομαι νομική βοήθεια
+[:Chreiázomai nomikí voítheia:]</value>
+  </data>
+  <data name="Phrases_MyNameIs" xml:space="preserve">
+    <value>Το όνομά μου είναι...
+[:To ónomá mou eínai...:]</value>
+  </data>
+  <data name="Phrases_Pet" xml:space="preserve">
+    <value>έχω ενα κατοικίδιο
+[:écho ena katoikídio:]</value>
+  </data>
+  <data name="Phrases_Restroom" xml:space="preserve">
+    <value>Πού είναι η τουαλέτα?
+[:Poú eínai i toualéta?:]</value>
+  </data>
+  <data name="Phrases_ThankYou" xml:space="preserve">
+    <value>Ευχαριστώ
+[:Efcharistó:]</value>
+  </data>
+  <data name="Phrases_Time" xml:space="preserve">
+    <value>Τι ώρα είναι?
+[:Ti óra eínai?:]</value>
+  </data>
+  <data name="Phrases_YourName" xml:space="preserve">
+    <value>Πως σε λένε?
+[:Pos se léne?:]</value>
   </data>
 </root>
