@@ -173,7 +173,7 @@ namespace Team32App.Views.PhrasesLevels
                     };
 
                     // Third Line
-                    Image_3x1.Glyph = "\ue87c";
+                    Image_3x1.Glyph = "\ue7f3";
                     Text_3x1.Text = AppResources.Phrases_Allergic;
                     Button_3x1.BindingContext = new
                     {
@@ -181,7 +181,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Allergic,
                     };
 
-                    Image_3x2.Glyph = "\ue8b4";
+                    Image_3x2.Glyph = "\uf104";
                     Text_3x2.Text = AppResources.Phrases_DoNotUnderstand;
                     Button_3x2.BindingContext = new
                     {
@@ -189,7 +189,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_DoNotUnderstand,
                     };
 
-                    Image_3x3.Glyph = "\ue56c";
+                    Image_3x3.Glyph = "\ue041";
                     Text_3x3.Text = AppResources.Phrases_Repeat;
                     Button_3x3.BindingContext = new
                     {
@@ -206,7 +206,7 @@ namespace Team32App.Views.PhrasesLevels
                     MainHeader.Text = AppResources.Phrases_Welcome3;
 
                     // First Line
-                    Image_1x1.Glyph = "\ue91d";
+                    Image_1x1.Glyph = "\ue91f";
                     Text_1x1.Text = AppResources.Phrases_Slower;
                     Button_1x1.BindingContext = new
                     {
@@ -214,7 +214,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Slower,
                     };
 
-                    Image_1x2.Glyph = "\ue1a3";
+                    Image_1x2.Glyph = "\ue927";
                     Text_1x2.Text = AppResources.Phrases_Mean;
                     Button_1x2.BindingContext = new
                     {
@@ -222,7 +222,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Mean,
                     };
 
-                    Image_1x3.Glyph = "\ue63d";
+                    Image_1x3.Glyph = "\ue8ce";
                     Text_1x3.Text = AppResources.Phrases_Spell;
                     Button_1x3.BindingContext = new
                     {
@@ -231,7 +231,7 @@ namespace Team32App.Views.PhrasesLevels
                     };
 
                     // Second Line
-                    Image_2x1.Glyph = "\uea70";
+                    Image_2x1.Glyph = "\ue8b6";
                     Text_2x1.Text = AppResources.Phrases_Looking;
                     Button_2x1.BindingContext = new
                     {
@@ -239,7 +239,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Looking,
                     };
 
-                    Image_2x2.Glyph = "\ue549";
+                    Image_2x2.Glyph = "\ue926";
                     Text_2x2.Text = AppResources.Phrases_Cost;
                     Button_2x2.BindingContext = new
                     {
@@ -247,7 +247,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Cost,
                     };
 
-                    Image_2x3.Glyph = "\ue90e";
+                    Image_2x3.Glyph = "\ue798";
                     Text_2x3.Text = AppResources.Phrases_Thristy;
                     Button_2x3.BindingContext = new
                     {
@@ -256,7 +256,7 @@ namespace Team32App.Views.PhrasesLevels
                     };
 
                     // Third Line
-                    Image_3x1.Glyph = "\ue87c";
+                    Image_3x1.Glyph = "\ue8e2";
                     Text_3x1.Text = AppResources.Phrases_Speak;
                     Button_3x1.BindingContext = new
                     {
@@ -264,7 +264,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Speak,
                     };
 
-                    Image_3x2.Glyph = "\ue8b4";
+                    Image_3x2.Glyph = "\uebd3";
                     Text_3x2.Text = AppResources.Phrases_Cold;
                     Button_3x2.BindingContext = new
                     {
@@ -272,7 +272,7 @@ namespace Team32App.Views.PhrasesLevels
                         greek = GreekPhrases.Phrases_Cold,
                     };
 
-                    Image_3x3.Glyph = "\ue56c";
+                    Image_3x3.Glyph = "\ue1eb";
                     Text_3x3.Text = AppResources.Phrases_Doctor;
                     Button_3x3.BindingContext = new
                     {
