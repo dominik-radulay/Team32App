@@ -6,15 +6,14 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" >
-                <Label  x:Name="MainHeader" Text="{x:Static resource:AppResources.Phrases_Welcome1}" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0" >
+                <Label  x:Name="MainHeader" Text="{x:Static resource:AppResources.Phrases_Welcome1}" HorizontalTextAlignment="Center" TextColor="White" FontSize="Title" />
             </Frame>
             <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="15,5,15,15">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -253,24 +252,24 @@
                         VerticalOptions="FillAndExpand" 
                         Clicked="LearnWord" />
 
-                <Frame 
+                <!--  <Frame 
                    Grid.Column="0"
                    Grid.Row="3"
                    BackgroundColor="#2196F3"  CornerRadius="10" >
                     <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
                         <Image>
                             <Image.Source>
-                                <!-- Image-->
+                             
                                 <FontImageSource x:Name="Image_4x1" Glyph="&#xea70;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
-                        <!-- Text-->
+                     
                         <Label x:Name="Text_4x1" Text="Thank you" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <!-- Location in grid 2-->
+                Location in grid 2
                 <Button x:Name="Button_4x1" Grid.Column="0" 
                         Grid.Row="3" 
                         BackgroundColor="Transparent" 
@@ -285,17 +284,17 @@
                     <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
                         <Image>
                             <Image.Source>
-                                <!-- Image-->
+                                Image
                                 <FontImageSource x:Name="Image_4x2" Glyph="&#xe549;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
-                        <!-- Text-->
+                        Text
                         <Label x:Name="Text_4x2" Text="I need an accomodation" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <!-- Location in grid 2-->
+                Location in grid 2
                 <Button x:Name="Button_4x2" Grid.Column="1" 
                         Grid.Row="3" 
                         BackgroundColor="Transparent" 
@@ -310,17 +309,17 @@
                     <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0">
                         <Image>
                             <Image.Source>
-                                <!-- Image-->
+                                 Image
                                 <FontImageSource x:Name="Image_4x3" Glyph="&#xe90e;" 
                                                  
                                                  FontFamily="Material"   Color="White"     Size="50"/>
                             </Image.Source>
                         </Image>
-                        <!-- Text-->
+                        Text
                         <Label x:Name="Text_4x3" Text="I need Legal help" HorizontalTextAlignment="Center"  TextColor="White" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <!-- Location in grid 2-->
+                Location in grid 2
                 <Button x:Name="Button_4x3" Grid.Column="2" 
                         Grid.Row="3" 
                         BackgroundColor="Transparent" 
@@ -328,7 +327,7 @@
                         VerticalOptions="FillAndExpand" 
                         Clicked="LearnWord" />
 
-                <!--<Frame 
+                <Frame 
                    Grid.Column="0"
                    Grid.Row="4"
                    BackgroundColor="#2196F3"  CornerRadius="10" >

@@ -248,4 +248,52 @@
     <value>Quel est ton nom?</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Allergic" xml:space="preserve">
+    <value>Je suis allergique à….</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Cold" xml:space="preserve">
+    <value>je gèle</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Cost" xml:space="preserve">
+    <value>Combien ça coûte?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Doctor" xml:space="preserve">
+    <value>j'ai besoin d'un docteur</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_DoNotUnderstand" xml:space="preserve">
+    <value>Je ne comprends pas</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Looking" xml:space="preserve">
+    <value>Je cherche…</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Mean" xml:space="preserve">
+    <value>Que signifie ___?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Repeat" xml:space="preserve">
+    <value>Pourriez-vous répéter cela, s'il vous plait?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Slower" xml:space="preserve">
+    <value>Pourriez-vous s'il vous plaît parler plus lentement?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Speak" xml:space="preserve">
+    <value>Je ne parle pas très bien le grec.</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Spell" xml:space="preserve">
+    <value>Comment épelez-vous cela?</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Thristy" xml:space="preserve">
+    <value>J'ai soif</value>
+    <comment>Phrases</comment>
+  </data>
 </root>

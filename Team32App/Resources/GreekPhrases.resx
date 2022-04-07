@@ -125,13 +125,33 @@
     <value>Συμφωνώντας
 [:Symfonóntas:]</value>
   </data>
+  <data name="Phrases_Allergic" xml:space="preserve">
+    <value>Είμαι αλλεργικός στο….
+[:Eímai allergikós sto….:]</value>
+  </data>
   <data name="Phrases_Charge" xml:space="preserve">
     <value>Πρέπει να φορτίσω το τηλέφωνό μου
 [:Prépei na fortíso to tiléfonó mou:]</value>
   </data>
+  <data name="Phrases_Cold" xml:space="preserve">
+    <value>παγώνω
+[:pagóno:]</value>
+  </data>
+  <data name="Phrases_Cost" xml:space="preserve">
+    <value>Πόσο κοστίζει?
+[:Póso kostízei?:]</value>
+  </data>
   <data name="Phrases_Denying" xml:space="preserve">
     <value>Αρνούμενος
 [:Arnoúmenos:]</value>
+  </data>
+  <data name="Phrases_Doctor" xml:space="preserve">
+    <value>Χρειάζομαι ένα γιατρό
+[:Chreiázomai éna giatró:]</value>
+  </data>
+  <data name="Phrases_DoNotUnderstand" xml:space="preserve">
+    <value>Δεν καταλαβαίνω
+[:Den katalavaíno:]</value>
   </data>
   <data name="Phrases_Greetings" xml:space="preserve">
     <value>Χαιρετίσματα
@@ -153,6 +173,14 @@
     <value>Χρειάζομαι νομική βοήθεια
 [:Chreiázomai nomikí voítheia:]</value>
   </data>
+  <data name="Phrases_Looking" xml:space="preserve">
+    <value>Ψάχνω για…
+[:Psáchno gia…:]</value>
+  </data>
+  <data name="Phrases_Mean" xml:space="preserve">
+    <value>Τι σημαίνει ___?
+[:Ti simaínei ___?:]</value>
+  </data>
   <data name="Phrases_MyNameIs" xml:space="preserve">
     <value>Το όνομά μου είναι...
 [:To ónomá mou eínai...:]</value>
@@ -161,13 +189,33 @@
     <value>έχω ενα κατοικίδιο
 [:écho ena katoikídio:]</value>
   </data>
+  <data name="Phrases_Repeat" xml:space="preserve">
+    <value>Μπορεις να το επαναλαβεις ΠΑΡΑΚΑΛΩ?
+[:Boreis na to epanalaveis PARAKALO?:]</value>
+  </data>
   <data name="Phrases_Restroom" xml:space="preserve">
     <value>Πού είναι η τουαλέτα?
 [:Poú eínai i toualéta?:]</value>
   </data>
+  <data name="Phrases_Slower" xml:space="preserve">
+    <value>Μπορείτε παρακαλώ να μιλήσετε πιο αργά;
+[:Boreíte parakaló na milísete pio argá?:]</value>
+  </data>
+  <data name="Phrases_Speak" xml:space="preserve">
+    <value>Δεν μιλάω πολύ καλά ελληνικά
+[:Den miláo polý kalá elliniká:]</value>
+  </data>
+  <data name="Phrases_Spell" xml:space="preserve">
+    <value>Πώς γράφεται αυτό;
+[:Pós gráfetai aftó?:]</value>
+  </data>
   <data name="Phrases_ThankYou" xml:space="preserve">
     <value>Ευχαριστώ
 [:Efcharistó:]</value>
+  </data>
+  <data name="Phrases_Thristy" xml:space="preserve">
+    <value>διψάω
+[:dipsáo:]</value>
   </data>
   <data name="Phrases_Time" xml:space="preserve">
     <value>Τι ώρα είναι?

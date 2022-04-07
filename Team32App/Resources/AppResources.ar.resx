@@ -153,12 +153,32 @@
     <value>الموافقة</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Allergic" xml:space="preserve">
+    <value>لدي حساسية من….</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_Charge" xml:space="preserve">
     <value>أنا بحاجة لشحن هاتفي</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Cold" xml:space="preserve">
+    <value>أنا أتجمد</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Cost" xml:space="preserve">
+    <value>كم يكلف هذا؟</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_Denying" xml:space="preserve">
     <value>إنكار</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Doctor" xml:space="preserve">
+    <value>انا بحاجة الى طبيب</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_DoNotUnderstand" xml:space="preserve">
+    <value>أنا لا أفهم</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Greetings" xml:space="preserve">
@@ -201,6 +221,14 @@
     <value>مستوى 3</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Looking" xml:space="preserve">
+    <value>أنا أبحث عن…</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Mean" xml:space="preserve">
+    <value>ماذا يعني؟</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_MyNameIs" xml:space="preserve">
     <value>اسمي هو...</value>
     <comment>Phrases</comment>
@@ -209,12 +237,32 @@
     <value>لدي حيوان أليف</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Repeat" xml:space="preserve">
+    <value>هل يمكنك تكرار ذلك، من فضلك؟</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_Restroom" xml:space="preserve">
     <value>أين المرحاض؟</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Phrases_Slower" xml:space="preserve">
+    <value>هل يمكنك التحدث بشكل أبطأ من فضلك؟</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Speak" xml:space="preserve">
+    <value>أنا لا أتحدث اليونانية جيدًا.</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Spell" xml:space="preserve">
+    <value>كيف تتهجى ذلك؟</value>
+    <comment>Phrases</comment>
+  </data>
   <data name="Phrases_ThankYou" xml:space="preserve">
     <value>شكرا لك</value>
+    <comment>Phrases</comment>
+  </data>
+  <data name="Phrases_Thristy" xml:space="preserve">
+    <value>عطشان</value>
     <comment>Phrases</comment>
   </data>
   <data name="Phrases_Time" xml:space="preserve">
