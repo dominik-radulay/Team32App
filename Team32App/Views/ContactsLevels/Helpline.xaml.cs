@@ -7,17 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Team32App.Views
+namespace Team32App.Views.NewFolder
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Contacts : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public Contacts()
+        public Page1()
         {
             InitializeComponent();
         }
-        
-
     }
-
 }

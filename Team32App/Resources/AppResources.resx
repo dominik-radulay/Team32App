@@ -296,4 +296,7 @@
     <value>I'm thirsty</value>
     <comment>Phrases</comment>
   </data>
+  <data name="Helpline" xml:space="preserve">
+    <value>Helpline</value>
+  </data>
 </root>

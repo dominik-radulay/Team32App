@@ -97,6 +97,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Helpline.
+        /// </summary>
+        internal static string Helpline {
+            get {
+                return ResourceManager.GetString("Helpline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Locations.
         /// </summary>
         internal static string Locations {
