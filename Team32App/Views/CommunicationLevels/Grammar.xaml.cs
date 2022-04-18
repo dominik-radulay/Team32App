@@ -14,7 +14,7 @@ namespace Team32App.Views.CommunicationLevels
     {
         public Grammar()
         {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Grammar));
+            InitializeComponent();
         }
     }
 }
