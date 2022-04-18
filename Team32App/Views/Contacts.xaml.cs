@@ -16,7 +16,13 @@ namespace Team32App.Views
         {
             InitializeComponent();
         }
-        
+
+        private async void HelplineNavigate(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ContactLevels.Helpline()) ; 
+
+        }
 
     }
 

@@ -53,6 +53,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>GreekPhrases.resx</DependentUpon>
     </Compile>
+    <Compile Update="ine.xaml.cs">
+      <DependentUpon>Help%3bine.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ContactLevels\Helpline.xaml.cs">
+      <DependentUpon>Helpline.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\PhrasesLevels\Level1.xaml.cs">
       <DependentUpon>Level1.xaml</DependentUpon>
     </Compile>
@@ -80,6 +86,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\CommunicationLevels\Suffix.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ine.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ContactLevels\Helpline.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Contacts.xaml">
