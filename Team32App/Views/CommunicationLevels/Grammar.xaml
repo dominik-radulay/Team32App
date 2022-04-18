@@ -4,7 +4,13 @@
              x:Class="Team32App.Views.CommunicationLevels.Grammar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="bababooye"
+            <Label Text="Add grammar text here"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Add grammar text here"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Add grammar text here"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
