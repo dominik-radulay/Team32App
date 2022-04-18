@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Team32App.Views.NewFolder
+namespace Team32App.Views.ContactLevels
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class Helpline : ContentPage
     {
-        public Page1()
+        public Helpline()
         {
             InitializeComponent();
         }

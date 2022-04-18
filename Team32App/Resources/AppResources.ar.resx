@@ -135,6 +135,7 @@
   </data>
   <data name="Helpline" xml:space="preserve">
     <value>جهات الاتصال</value>
+    <comment>General</comment>
   </data>
   <data name="Locations" xml:space="preserve">
     <value>المواقع</value>

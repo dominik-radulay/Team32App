@@ -298,5 +298,6 @@
   </data>
   <data name="Helpline" xml:space="preserve">
     <value>Assistance téléphonique</value>
+    <comment>General</comment>
   </data>
 </root>
