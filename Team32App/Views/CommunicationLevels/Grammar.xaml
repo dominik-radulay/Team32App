@@ -4,7 +4,9 @@
              x:Class="Team32App.Views.CommunicationLevels.Grammar">
     <ContentPage.Content>
         <StackLayout>
-
+            <Label Text="bababooye"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
