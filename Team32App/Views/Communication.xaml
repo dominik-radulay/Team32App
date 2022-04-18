@@ -22,7 +22,7 @@
 
             <Button Text="The Cases" Clicked="LevelNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
             <Button  Text="The Articles" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="2"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button Text="Formal use of Cases and Articles" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="3"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="Formal use of cases and articles" Clicked="LevelNavigate" Margin="120,5,120,5" BindingContext="3"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
 
             <Button  Margin="120,100,120,10" Text="Back to main menu" Clicked="Back_to_Menu"   FontSize="20" TextColor="White" BackgroundColor="#03DAC5">
 
