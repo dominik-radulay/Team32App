@@ -4,15 +4,37 @@
              x:Class="Team32App.Views.CommunicationLevels.Grammar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Add grammar text here"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="The nominative indicates:"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="1. the subject in the sentence: Η Ελένη αγοράζει μήλα.= Helen buys apples"
+                VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
-            <Label Text="Add grammar text here"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="2. the predicate in the sentence as well, when linking verbs are used: Ο Νίκος είναι καλός μαθητής. = Nikos is a good pupil."
+                VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
-            <Label Text="Add grammar text here"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="The genitive indicates:"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Label Text="1. Possesion: Το αυτοκίνητο του Νίκου. = Niko's car."
+                VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
+            <Label Text="Το ποδήλατο της Μαρίας. = Maria's bicycle."
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="2. The subject (The genitive with nouns related to verbs may indicate the subject of the action:"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Η νίκη των Σπαρτιατών./ Οι Σπαρτιάτες νίκησαν. = The victory of the Spartans./ (The Spartans won.)"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="3. The object (The genitive with nouns related to verbs may indicate the direct object of the action:"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="Είναι οι φρουροί της χώρας. Φρουρούν τη χώρα. They are the guardians of the country. (They guard the country)"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
