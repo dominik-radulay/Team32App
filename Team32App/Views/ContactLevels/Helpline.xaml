@@ -11,13 +11,15 @@
                         <Image.Source>
                             <FontImageSource FontFamily="Material"
                                  Color="White"
-                                 Glyph="&#xe0cf;"
+                                 Glyph="&#xe0cd;"
                                      Size="70"/>
                         </Image.Source>
                     </Image>
-                    <Label Text="{x:Static resource:AppResources.Contacts}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Helpline}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
+            <Label Text="Helpline number for the language provided: 01783 890098" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36"/>
+            <Button Text="Dial" Clicked="HelplineCall"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
