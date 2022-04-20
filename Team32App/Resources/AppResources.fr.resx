@@ -300,4 +300,16 @@
     <value>Assistance téléphonique</value>
     <comment>General</comment>
   </data>
+  <data name="Numerals" xml:space="preserve">
+    <value>Chiffres</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_articles" xml:space="preserve">
+    <value>Les articles</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_cases" xml:space="preserve">
+    <value>Les cas</value>
+    <comment>Communications</comment>
+  </data>
 </root>

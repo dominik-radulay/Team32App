@@ -145,6 +145,9 @@
     <value>القائمة الرئيسية</value>
     <comment>General</comment>
   </data>
+  <data name="Numerals" xml:space="preserve">
+    <value>الأعداد</value>
+  </data>
   <data name="Phrases" xml:space="preserve">
     <value>عبارات</value>
     <comment>General</comment>
@@ -296,6 +299,12 @@
   <data name="SelectLanguage" xml:space="preserve">
     <value>اختار اللغة</value>
     <comment>General</comment>
+  </data>
+  <data name="The_articles" xml:space="preserve">
+    <value>المقالات</value>
+  </data>
+  <data name="The_cases" xml:space="preserve">
+    <value>الحالات</value>
   </data>
   <data name="WelcomeText" xml:space="preserve">
     <value>مرحبًا بكم في النسخة العربية من هذا التطبيق</value>

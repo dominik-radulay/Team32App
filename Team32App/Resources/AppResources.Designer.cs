@@ -124,6 +124,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Numerals.
+        /// </summary>
+        internal static string Numerals {
+            get {
+                return ResourceManager.GetString("Numerals", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Phrases.
         /// </summary>
         internal static string Phrases {
@@ -462,6 +471,24 @@ namespace Team32App.Resources {
         internal static string SelectLanguage {
             get {
                 return ResourceManager.GetString("SelectLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Articles.
+        /// </summary>
+        internal static string The_articles {
+            get {
+                return ResourceManager.GetString("The_articles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Cases.
+        /// </summary>
+        internal static string The_cases {
+            get {
+                return ResourceManager.GetString("The_cases", resourceCulture);
             }
         }
         

@@ -300,4 +300,16 @@
     <value>Helpline</value>
     <comment>General</comment>
   </data>
+  <data name="Numerals" xml:space="preserve">
+    <value>Numerals</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_articles" xml:space="preserve">
+    <value>The Articles</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_cases" xml:space="preserve">
+    <value>The Cases</value>
+    <comment>Communications</comment>
+  </data>
 </root>
