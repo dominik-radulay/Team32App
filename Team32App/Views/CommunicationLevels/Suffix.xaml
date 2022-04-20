@@ -4,9 +4,9 @@
              x:Class="Team32App.Views.CommunicationLevels.Suffix">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Add grammar text here"
+            <Label Text="The article:&#10;"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"/>
             <Label Text="Add grammar text here"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
