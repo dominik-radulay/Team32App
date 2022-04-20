@@ -15,7 +15,7 @@
                 FontAttributes="Bold, Italic"
                 VerticalOptions="Center"  
                 HorizontalOptions="Center" Margin="35,35,35,0"/>
-            <Label Text="1.Possesion: Το αυτοκίνητο του Νίκου. = Niko's car.&#10;Το ποδήλατο της Μαρίας. = Maria's bicycle.&#10;2. The subject (The genitive with nouns related to verbs may indicate the subject of the action:&#10;Η νίκη των Σπαρτιατών./ Οι Σπαρτιάτες νίκησαν. = The victory of the Spartans./ (The Spartans won.)&#10;3. The object (The genitive with nouns related to verbs may indicate the direct object of the action:&#10;Είναι οι φρουροί της χώρας. Φρουρούν τη χώρα. They are the guardians of the country. (They guard the country)"
+            <Label Text="1.Possesion: Το αυτοκίνητο του Νίκου. = Niko's car.&#10;Το ποδήλατο της Μαρίας. = Maria's bicycle.&#10;2. The subject (The genitive with nouns related to verbs may indicate the subject of the action:&#10;Η νίκη των Σπαρτιατών./ Οι Σπαρτιάτες νίκησαν. = The victory of the Spartans./ (The Spartans won.)&#10;3. The object (The genitive with nouns related to verbs may indicate the direct object of the action:&#10;Είναι οι φρουροί της χώρας. Φρουρούν τη χώρα. = They are the guardians of the country. (They guard the country)"
                 VerticalOptions="Center"  
                 HorizontalOptions="Center" Margin="35,0,35,35"/>
 
