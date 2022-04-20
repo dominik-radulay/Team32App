@@ -4,15 +4,20 @@
              x:Class="Team32App.Views.CommunicationLevels.Grammar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="The nominative indicates:&#10;1.the subject in the sentence: Η Ελένη αγοράζει μήλα.= Helen buys apples.&#10;2.the predicate in the sentence as well, when linking verbs are used: Ο Νίκος είναι καλός μαθητής. = Nikos is a good pupil."
+            <Label Text="The nominative indicates:"
+                FontAttributes="Bold, Italic"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center" Margin="35" />
-            <Label Text="The genitive indicates:&#10;1.Possesion: Το αυτοκίνητο του Νίκου. = Niko's car.&#10;Το ποδήλατο της Μαρίας. = Maria's bicycle.&#10;2. The subject (The genitive with nouns related to verbs may indicate the subject of the action:&#10;Η νίκη των Σπαρτιατών./ Οι Σπαρτιάτες νίκησαν. = The victory of the Spartans./ (The Spartans won.)"
+                HorizontalOptions="Center" Margin="35,35,35,0" />
+            <Label Text="1.the subject in the sentence: Η Ελένη αγοράζει μήλα.= Helen buys apples.&#10;2.the predicate in the sentence as well, when linking verbs are used: Ο Νίκος είναι καλός μαθητής. = Nikos is a good pupil."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" Margin="35,0,35,35" />
+            <Label Text="The genitive indicates:"
+                FontAttributes="Bold, Italic"
                 VerticalOptions="Center"  
-                HorizontalOptions="Center" Margin="35"/>
-            <Label Text="3. The object (The genitive with nouns related to verbs may indicate the direct object of the action:&#10;Είναι οι φρουροί της χώρας. Φρουρούν τη χώρα. They are the guardians of the country. (They guard the country)"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" Margin="35" />
+                HorizontalOptions="Center" Margin="35,35,35,0"/>
+            <Label Text="1.Possesion: Το αυτοκίνητο του Νίκου. = Niko's car.&#10;Το ποδήλατο της Μαρίας. = Maria's bicycle.&#10;2. The subject (The genitive with nouns related to verbs may indicate the subject of the action:&#10;Η νίκη των Σπαρτιατών./ Οι Σπαρτιάτες νίκησαν. = The victory of the Spartans./ (The Spartans won.)&#10;3. The object (The genitive with nouns related to verbs may indicate the direct object of the action:&#10;Είναι οι φρουροί της χώρας. Φρουρούν τη χώρα. They are the guardians of the country. (They guard the country)"
+                VerticalOptions="Center"  
+                HorizontalOptions="Center" Margin="35,0,35,35"/>
 
         </StackLayout>
     </ContentPage.Content>
