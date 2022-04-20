@@ -6,19 +6,24 @@
         <StackLayout>
             <Label Text="The definite article:"
                 FontAttributes="Bold, Italic"
+                FontSize="17"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,35,35,0" />
             <Label Text="Singular:&#10;Masculine: ο, του, το(ν)&#10;Feminine: η, της, τη(ν)&#10;Neuter: το, του, το"
+                TextColor="DodgerBlue"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,0,35,0"/>
             <Label Text="Plural:&#10;Masculine: οι, των, τους&#10;Feminine: οι, των, τις&#10;Neuter: τα, των, τα "
+                TextColor="DodgerBlue"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,0,35,35"/>
             <Label Text="The indefinite article:"
                 FontAttributes="Bold, Italic"
+                FontSize="17"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,35,35,0"/>
             <Label Text="Singular:&#10;Masculine: ένας, ενός, ένα(ν)&#10;Feminine: μια, μιας, μια&#10;Neuter: ένα, ενός, ένα"
+                TextColor="DodgerBlue"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,0,35,35"/>
         </StackLayout>
