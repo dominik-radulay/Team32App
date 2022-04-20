@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:Team32App.Resources"
              x:Class="Team32App.Views.Communication">
     <ContentPage.Content>
         <!-- Margin is Left,Top,Right, Bottom -->
@@ -16,7 +17,7 @@
 
                         </Image.Source>
                     </Image>
-                    <Label Text="Communication" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Communication}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
 
