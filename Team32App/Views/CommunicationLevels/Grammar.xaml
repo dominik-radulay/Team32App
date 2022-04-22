@@ -5,7 +5,7 @@
              x:Class="Team32App.Views.CommunicationLevels.Grammar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="The nominative indicates:"
+            <Label Text="{x:Static resource:AppResources.The_nominative_indicates}"
                 FontAttributes="Bold, Italic"
                 FontSize="17"
                 VerticalOptions="Center" 
@@ -14,7 +14,7 @@
                 TextColor="DodgerBlue"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,0,35,35" />
-            <Label Text="The genitive indicates:"
+            <Label Text="{x:Static resource:AppResources.The_genetive_indicates}"
                 FontAttributes="Bold, Italic"
                 FontSize="17"
                 VerticalOptions="Center"  

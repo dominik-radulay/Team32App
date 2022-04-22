@@ -320,8 +320,16 @@
     <value>The definite article:</value>
     <comment>Communications</comment>
   </data>
+  <data name="The_genetive_indicates" xml:space="preserve">
+    <value>The genitive indicates:</value>
+    <comment>Communications</comment>
+  </data>
   <data name="The_Indefinite_article" xml:space="preserve">
     <value>The indefinite article:</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_nominative_indicates" xml:space="preserve">
+    <value>The nominative indicates:</value>
     <comment>Communications</comment>
   </data>
 </root>

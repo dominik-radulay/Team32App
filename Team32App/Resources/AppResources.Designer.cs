@@ -511,11 +511,29 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The genitive indicates:.
+        /// </summary>
+        internal static string The_genetive_indicates {
+            get {
+                return ResourceManager.GetString("The_genetive_indicates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The indefinite article:.
         /// </summary>
         internal static string The_Indefinite_article {
             get {
                 return ResourceManager.GetString("The_Indefinite_article", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The nominative indicates:.
+        /// </summary>
+        internal static string The_nominative_indicates {
+            get {
+                return ResourceManager.GetString("The_nominative_indicates", resourceCulture);
             }
         }
         

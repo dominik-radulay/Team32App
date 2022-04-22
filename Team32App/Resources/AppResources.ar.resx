@@ -316,8 +316,16 @@
     <value>أداة التعريف:</value>
     <comment>Communications</comment>
   </data>
+  <data name="The_genetive_indicates" xml:space="preserve">
+    <value>المضاف يدل على:</value>
+    <comment>Communications</comment>
+  </data>
   <data name="The_Indefinite_article" xml:space="preserve">
     <value>النكرة:</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_nominative_indicates" xml:space="preserve">
+    <value>يشير الاسمي إلى:</value>
     <comment>Communications</comment>
   </data>
   <data name="WelcomeText" xml:space="preserve">
