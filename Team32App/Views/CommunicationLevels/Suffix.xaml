@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:Team32App.Resources"
              x:Class="Team32App.Views.CommunicationLevels.Suffix">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="The definite article:"
+            <Label Text="{x:Static resource:AppResources.The_Definitive_article}"
                 FontAttributes="Bold, Italic"
                 FontSize="17"
                 VerticalOptions="Center" 
@@ -17,7 +18,7 @@
                 TextColor="DodgerBlue"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" Margin="35,0,35,35"/>
-            <Label Text="The indefinite article:"
+            <Label Text="{x:Static resource:AppResources.The_Indefinite_article}"
                 FontAttributes="Bold, Italic"
                 FontSize="17"
                 VerticalOptions="Center" 

@@ -121,6 +121,10 @@
     <value>العودة إلى القائمة الرئيسية</value>
     <comment>General</comment>
   </data>
+  <data name="Cardinal_Numbers" xml:space="preserve">
+    <value>أرقام الكاردينال:</value>
+    <comment>Communications</comment>
+  </data>
   <data name="ChangeLanguage" xml:space="preserve">
     <value>تغيير اللغة</value>
     <comment>General</comment>
@@ -302,9 +306,19 @@
   </data>
   <data name="The_articles" xml:space="preserve">
     <value>المقالات</value>
+    <comment>Communications</comment>
   </data>
   <data name="The_cases" xml:space="preserve">
     <value>الحالات</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_Definitive_article" xml:space="preserve">
+    <value>أداة التعريف:</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_Indefinite_article" xml:space="preserve">
+    <value>النكرة:</value>
+    <comment>Communications</comment>
   </data>
   <data name="WelcomeText" xml:space="preserve">
     <value>مرحبًا بكم في النسخة العربية من هذا التطبيق</value>

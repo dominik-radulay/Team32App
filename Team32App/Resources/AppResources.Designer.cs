@@ -70,6 +70,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cardinal Numbers:.
+        /// </summary>
+        internal static string Cardinal_Numbers {
+            get {
+                return ResourceManager.GetString("Cardinal_Numbers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Change Language.
         /// </summary>
         internal static string ChangeLanguage {
@@ -489,6 +498,24 @@ namespace Team32App.Resources {
         internal static string The_cases {
             get {
                 return ResourceManager.GetString("The_cases", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The definite article:.
+        /// </summary>
+        internal static string The_Definitive_article {
+            get {
+                return ResourceManager.GetString("The_Definitive_article", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The indefinite article:.
+        /// </summary>
+        internal static string The_Indefinite_article {
+            get {
+                return ResourceManager.GetString("The_Indefinite_article", resourceCulture);
             }
         }
         

@@ -312,4 +312,16 @@
     <value>Les cas</value>
     <comment>Communications</comment>
   </data>
+  <data name="Cardinal_Numbers" xml:space="preserve">
+    <value>Nombres cardinaux:</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_Definitive_article" xml:space="preserve">
+    <value>L'article défini :</value>
+    <comment>Communications</comment>
+  </data>
+  <data name="The_Indefinite_article" xml:space="preserve">
+    <value>L'article indéfini:</value>
+    <comment>Communications</comment>
+  </data>
 </root>
