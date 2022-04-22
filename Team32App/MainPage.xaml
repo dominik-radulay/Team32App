@@ -13,10 +13,10 @@
             </Frame>
             <!--<Label Text="Start developing now in your file like - Contacts.xaml and Contacts.xaml.cs" FontSize="Title" Padding="30,10,30,10"/>
             <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload." FontSize="16" Padding="30,0,30,0"/> -->
-            <Label Text="{x:Static resource:AppResources.ChangeLanguage}" />
+            <Label  Text="{x:Static resource:AppResources.ChangeLanguage}" />
             <Picker x:Name="picker" SelectedItem="0">
                 <Picker.Items>
-                    <x:String >English</x:String>
+                    <x:String>English</x:String>
                     <x:String>French</x:String>
                     <x:String>Arabic</x:String>
                 </Picker.Items>
