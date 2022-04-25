@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Team32App.Resources;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,8 @@ namespace Team32App.Views.CommunicationLevels
         public FormalW()
         {
             InitializeComponent();
+            CardinalNumbers.Text = AppResources.Cardinal_Numbers + "\n" + AppResources.Cardinal_Numbers;
+
         }
     }
 }
