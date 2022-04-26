@@ -115,6 +115,24 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dialing Error.
+        /// </summary>
+        internal static string Dial_Feature_Error_1 {
+            get {
+                return ResourceManager.GetString("Dial_Feature_Error_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone Dialer is not support on this device.
+        /// </summary>
+        internal static string Dial_Feautre_Error_2 {
+            get {
+                return ResourceManager.GetString("Dial_Feautre_Error_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
         internal static string Email {
@@ -124,11 +142,47 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Type the message in body and click Email to email the help center:.
+        /// </summary>
+        internal static string Email_Open {
+            get {
+                return ResourceManager.GetString("Email_Open", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        internal static string English {
+            get {
+                return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to helpeng@help.gr.
+        /// </summary>
+        internal static string Help_Email {
+            get {
+                return ResourceManager.GetString("Help_Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Helpline.
         /// </summary>
         internal static string Helpline {
             get {
                 return ResourceManager.GetString("Helpline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 01234 12345.
+        /// </summary>
+        internal static string HelplineNum {
+            get {
+                return ResourceManager.GetString("HelplineNum", resourceCulture);
             }
         }
         
@@ -147,6 +201,15 @@ namespace Team32App.Resources {
         internal static string MainMenu {
             get {
                 return ResourceManager.GetString("MainMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter your preferred name.
+        /// </summary>
+        internal static string Name_Holder {
+            get {
+                return ResourceManager.GetString("Name_Holder", resourceCulture);
             }
         }
         

@@ -18,7 +18,8 @@
                     <Label Text="{x:Static resource:AppResources.Helpline}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
-            <Label Text="Helpline number for the language provided: 01783 890098" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36"/>
+            <Label Text="Press Dial to call the helpline with the language specified:" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36"/>
+            <Label Text="{x:Static resource:AppResources.HelplineNum}" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36" x:Name="DialNumber"/>
             <Button Text="Dial" Clicked="Helpline_Call"/>
 
             <Button  Margin="120,50,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="Large" TextColor="White" BackgroundColor="#03DAC5"/>

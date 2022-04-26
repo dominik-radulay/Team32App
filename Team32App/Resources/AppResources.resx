@@ -340,4 +340,32 @@
     <value>Choose a location</value>
     <comment>Locations</comment>
   </data>
+  <data name="Dial_Feature_Error_1" xml:space="preserve">
+    <value>Dialing Error</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Dial_Feautre_Error_2" xml:space="preserve">
+    <value>Phone Dialer is not support on this device</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Email_Open" xml:space="preserve">
+    <value>Type the message in body and click Email to email the help center:</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="HelplineNum" xml:space="preserve">
+    <value>01234 12345</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Help_Email" xml:space="preserve">
+    <value>helpeng@help.gr</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Name_Holder" xml:space="preserve">
+    <value>Please enter your preferred name</value>
+    <comment>Contacts</comment>
+  </data>
 </root>

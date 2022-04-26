@@ -340,4 +340,31 @@
     <value>Choisissez un emplacement</value>
     <comment>Locations</comment>
   </data>
+  <data name="Dial_Feature_Error_1" xml:space="preserve">
+    <value>Erreur de numérotation</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Dial_Feautre_Error_2" xml:space="preserve">
+    <value>Le numéroteur téléphonique n'est pas pris en charge sur cet appareil</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Email_Open" xml:space="preserve">
+    <value>Tapez le message dans le corps et cliquez sur E-mail pour envoyer un e-mail au centre d'aide :</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="HelplineNum" xml:space="preserve">
+    <value>04324 23454</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Help_Email" xml:space="preserve">
+    <value>helpfr@help.gr</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Name_Holder" xml:space="preserve">
+    <value>Veuillez entrer votre nom préféré</value>
+    <comment>Contacts</comment>
+  </data>
 </root>

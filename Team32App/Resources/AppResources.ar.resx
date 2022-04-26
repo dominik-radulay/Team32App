@@ -141,13 +141,37 @@
     <value>جهات الاتصال</value>
     <comment>General</comment>
   </data>
+  <data name="Dial_Feature_Error_1" xml:space="preserve">
+    <value>خطأ في الاتصال</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Dial_Feautre_Error_2" xml:space="preserve">
+    <value>الهاتف غير مدعوم</value>
+    <comment>Contacts</comment>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>بريد الالكتروني</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Email_Open" xml:space="preserve">
+    <value>اكتب الرسالة في نص الرسالة وانقر على بريد إلكتروني لإرسال بريد إلكتروني إلى مركز المساعدة:</value>
     <comment>Contacts</comment>
   </data>
   <data name="Helpline" xml:space="preserve">
     <value>جهات الاتصال</value>
     <comment>General</comment>
+  </data>
+  <data name="Helpline_Num" xml:space="preserve">
+    <value>01543 786543</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Help_Email" xml:space="preserve">
+    <value>helpar@help.gr</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>عربي</value>
+    <comment>Contacts</comment>
   </data>
   <data name="Locations" xml:space="preserve">
     <value>المواقع</value>
@@ -156,6 +180,10 @@
   <data name="MainMenu" xml:space="preserve">
     <value>القائمة الرئيسية</value>
     <comment>General</comment>
+  </data>
+  <data name="Name_Holder" xml:space="preserve">
+    <value>الرجاء إدخال اسمك المفضل</value>
+    <comment>Contacts</comment>
   </data>
   <data name="Numerals" xml:space="preserve">
     <value>الأعداد</value>

@@ -15,11 +15,13 @@
                                      Size="70"/>
                         </Image.Source>
                     </Image>
-                    <Label Text="{x:Static resource:AppResources.Email}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Email}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="30"/>
                 </StackLayout>
             </Frame>
-            <Label Text="Click email to email the help center" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36"/>
-            <Button Text="Email" Clicked="Send_Email"/>
+            <Label Text="{x:Static resource:AppResources.Email_Open}" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="30"/>
+            <Label Text="{x:Static resource:AppResources.Help_Email}" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="30" x:Name="EmailAddress"/>
+            <Entry Text="" Placeholder="{x:Static resource:AppResources.Name_Holder}" x:Name="EmailName"/>
+            <Button Text="Compose Email" Clicked="Send_Email"/>
 
             <Button  Margin="120,50,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="Large" TextColor="White" BackgroundColor="#03DAC5"/>
         </StackLayout>

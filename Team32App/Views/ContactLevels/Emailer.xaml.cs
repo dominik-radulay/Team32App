@@ -18,11 +18,13 @@ namespace Team32App.Views.ContactLevels
             InitializeComponent();
         }
 
+       
+
         private void Send_Email(object sender, EventArgs e)
         {
             try
             {
-                var message = new EmailMessage("Place holder subject for resources", "Place holder for body format", "Email");
+                var message = new EmailMessage(EmailName.Text, "" ,EmailAddress.Text);
                 message.BodyFormat = EmailBodyFormat.PlainText;
                 Email.ComposeAsync(message);
             }

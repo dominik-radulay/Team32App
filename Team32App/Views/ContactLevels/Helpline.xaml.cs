@@ -22,7 +22,7 @@ namespace Team32App.Views.ContactLevels
         {
             try
             {
-                PhoneDialer.Open("01783 890098");
+                PhoneDialer.Open(DialNumber.Text);
             }
             catch (FeatureNotSupportedException ex)
             {
