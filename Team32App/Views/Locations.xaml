@@ -1,12 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="Team32App.Views.Locations">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!  This is Locations page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
+                <Label Text="{x:Static resource:AppResources.Locations}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+            </Frame>
+            <Picker 
+                x:Name="LocationPicker"
+                Title="Choose a location"
+                SelectedIndexChanged="LocationPicker_OnSelectedIndexChanged"
+            />
+
+            <maps:Map x:Name="Map"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
