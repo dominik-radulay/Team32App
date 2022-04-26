@@ -11,28 +11,30 @@ using Xamarin.Forms.Xaml;
 namespace Team32App.Views.ContactLevels
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Helpline : ContentPage
+    public partial class Emailer : ContentPage
     {
-        public Helpline()
+        public Emailer()
         {
             InitializeComponent();
         }
 
-        private void Helpline_Call(object sender, EventArgs e)
+        private void Send_Email(object sender, EventArgs e)
         {
             try
             {
-                PhoneDialer.Open("01783 890098");
+                var message = new EmailMessage("Place holder subject for resources", "Place holder for body format", "Email");
+                message.BodyFormat = EmailBodyFormat.PlainText;
+                Email.ComposeAsync(message);
             }
             catch (FeatureNotSupportedException ex)
             {
-                DisplayAlert("Dialing Error", "Phone Dialer is not supported on this device.", "OK");
+               DisplayAlert("Place holder error", "Place holder error message", "OK");
             }
             catch (Exception ex)
             {
-                DisplayAlert("Phone number cannot be dialed", "Please try dialing again", "OK");
+                DisplayAlert("Place holder for email not sent", "Please try emailing again", "OK");
             }
-        }
+        } 
 
         private void Back_to_Menu(object sender, EventArgs e)
         {

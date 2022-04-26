@@ -137,6 +137,10 @@
     <value>جهات الاتصال</value>
     <comment>General</comment>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>بريد الالكتروني</value>
+    <comment>Contacts</comment>
+  </data>
   <data name="Helpline" xml:space="preserve">
     <value>جهات الاتصال</value>
     <comment>General</comment>

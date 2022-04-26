@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:resource="clr-namespace:Team32App.Resources"
-             x:Class="Team32App.Views.ContactLevels.Helpline">
+             x:Class="Team32App.Views.ContactLevels.Emailer">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#FFFF">
             <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
@@ -15,11 +15,11 @@
                                      Size="70"/>
                         </Image.Source>
                     </Image>
-                    <Label Text="{x:Static resource:AppResources.Helpline}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Email}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
-            <Label Text="Helpline number for the language provided: 01783 890098" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36"/>
-            <Button Text="Dial" Clicked="Helpline_Call"/>
+            <Label Text="Click email to email the help center" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="36"/>
+            <Button Text="Email" Clicked="Send_Email"/>
 
             <Button  Margin="120,50,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="Large" TextColor="White" BackgroundColor="#03DAC5"/>
         </StackLayout>
