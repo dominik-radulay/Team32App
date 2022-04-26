@@ -118,7 +118,6 @@ namespace Team32App.Views
                 if (element.Key == name)
                 {
                     Map.MoveToRegion(MapSpan.FromCenterAndRadius(element.Value, Distance.FromMeters(1000)));
-                    DisplayAlert(name, "", "Ok");
                 }
             }
         }
