@@ -88,6 +88,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Choose a location.
+        /// </summary>
+        internal static string ChooseLocation {
+            get {
+                return ResourceManager.GetString("ChooseLocation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Communication.
         /// </summary>
         internal static string Communication {

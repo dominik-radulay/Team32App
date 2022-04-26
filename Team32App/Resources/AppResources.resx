@@ -336,4 +336,8 @@
     <value>Email</value>
     <comment>Contacts</comment>
   </data>
+  <data name="ChooseLocation" xml:space="preserve">
+    <value>Choose a location</value>
+    <comment>Locations</comment>
+  </data>
 </root>
