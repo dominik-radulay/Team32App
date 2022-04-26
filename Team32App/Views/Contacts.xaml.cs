@@ -24,6 +24,18 @@ namespace Team32App.Views
 
         }
 
+        private void Back_to_Menu(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainMenu());
+
+        }
+        private async void EmailNavigate(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ContactLevels.Emailer());
+
+        }
+
     }
 
 }

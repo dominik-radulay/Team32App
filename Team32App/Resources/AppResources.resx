@@ -298,7 +298,7 @@
   </data>
   <data name="Helpline" xml:space="preserve">
     <value>Helpline</value>
-    <comment>General</comment>
+    <comment>Contacts</comment>
   </data>
   <data name="Numerals" xml:space="preserve">
     <value>Numerals</value>
@@ -331,5 +331,9 @@
   <data name="The_nominative_indicates" xml:space="preserve">
     <value>The nominative indicates:</value>
     <comment>Communications</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>Contacts</comment>
   </data>
 </root>

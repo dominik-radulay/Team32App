@@ -14,7 +14,7 @@ namespace Team32App
         {
             Thread.CurrentThread.CurrentUICulture = CultureInfo.InstalledUICulture;
             InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Views.MainMenu());
         }
 
         protected override void OnStart()

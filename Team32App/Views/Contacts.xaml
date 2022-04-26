@@ -19,6 +19,8 @@
                 </StackLayout>
             </Frame>
             <Button Text="{x:Static resource:AppResources.Helpline}" Clicked="HelplineNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="Large" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="{x:Static resource:AppResources.Email}" Clicked="EmailNavigate"  Margin="120,100,120,5" BindingContext="1"  FontSize="Large" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button  Margin="120,50,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="Large" TextColor="White" BackgroundColor="#03DAC5"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

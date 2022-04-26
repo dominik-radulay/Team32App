@@ -332,4 +332,8 @@
     <value>Le nominatif indique :</value>
     <comment>Communications</comment>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+    <comment>Contacts</comment>
+  </data>
 </root>
