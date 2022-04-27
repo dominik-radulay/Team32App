@@ -36,6 +36,13 @@ namespace Team32App.Views
 
         }
 
+        private async void EmergencyNavigate(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ContactLevels.Emergency());
+
+        }
+
     }
 
 }

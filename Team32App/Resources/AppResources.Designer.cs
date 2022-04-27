@@ -61,6 +61,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ambulance.
+        /// </summary>
+        internal static string Ambulance {
+            get {
+                return ResourceManager.GetString("Ambulance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back to Main Menu.
         /// </summary>
         internal static string BackToMainMenu {
@@ -115,6 +124,15 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dial.
+        /// </summary>
+        internal static string Dial {
+            get {
+                return ResourceManager.GetString("Dial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dialing Error.
         /// </summary>
         internal static string Dial_Feature_Error_1 {
@@ -151,6 +169,33 @@ namespace Team32App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Emergency.
+        /// </summary>
+        internal static string Emergency {
+            get {
+                return ResourceManager.GetString("Emergency", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Emergency Line.
+        /// </summary>
+        internal static string Emergency_Line {
+            get {
+                return ResourceManager.GetString("Emergency_Line", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select the button of the emergency line you want to call.
+        /// </summary>
+        internal static string Emergency_Title {
+            get {
+                return ResourceManager.GetString("Emergency_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English.
         /// </summary>
         internal static string English {
@@ -180,9 +225,18 @@ namespace Team32App.Resources {
         /// <summary>
         ///   Looks up a localized string similar to 01234 12345.
         /// </summary>
-        internal static string HelplineNum {
+        internal static string Helpline_Num {
             get {
-                return ResourceManager.GetString("HelplineNum", resourceCulture);
+                return ResourceManager.GetString("Helpline_Num", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Press Dial to call the helpline with the language specified:.
+        /// </summary>
+        internal static string Helpline_Title {
+            get {
+                return ResourceManager.GetString("Helpline_Title", resourceCulture);
             }
         }
         
@@ -543,6 +597,15 @@ namespace Team32App.Resources {
         internal static string Phrases_YourName {
             get {
                 return ResourceManager.GetString("Phrases_YourName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Police.
+        /// </summary>
+        internal static string Police {
+            get {
+                return ResourceManager.GetString("Police", resourceCulture);
             }
         }
         

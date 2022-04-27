@@ -62,6 +62,9 @@
     <Compile Update="Views\ContactLevels\Emailer.xaml.cs">
       <DependentUpon>Emailer.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\ContactLevels\Emergency.xaml.cs">
+      <DependentUpon>Emergency.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\PhrasesLevels\Level1.xaml.cs">
       <DependentUpon>Level1.xaml</DependentUpon>
     </Compile>
@@ -98,6 +101,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ContactLevels\Emailer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ContactLevels\Emergency.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Contacts.xaml">

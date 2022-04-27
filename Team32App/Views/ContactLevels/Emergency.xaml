@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:resource="clr-namespace:Team32App.Resources"
-             x:Class="Team32App.Views.Contacts">
+             x:Class="Team32App.Views.ContactLevels.Emergency">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#FFFF">
             <Frame BackgroundColor="#2196F3"  CornerRadius="0" >
@@ -11,16 +11,18 @@
                         <Image.Source>
                             <FontImageSource FontFamily="Material"
                                  Color="White"
-                                 Glyph="&#xe0cf;"
+                                 Glyph="&#xe0cd;"
                                      Size="70"/>
                         </Image.Source>
                     </Image>
-                    <Label Text="{x:Static resource:AppResources.Contacts}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
+                    <Label Text="{x:Static resource:AppResources.Emergency_Line}" HorizontalTextAlignment="Center"  TextColor="White" FontSize="36"/>
                 </StackLayout>
             </Frame>
-            <Button Text="{x:Static resource:AppResources.Helpline}" Clicked="HelplineNavigate"  Margin="120,80,120,5" BindingContext="1"  FontSize="Large" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button Text="{x:Static resource:AppResources.Email}" Clicked="EmailNavigate"  Margin="120,80,120,5" BindingContext="1"  FontSize="Large" TextColor="White" BackgroundColor="#2196F3"/>
-            <Button Text="{x:Static resource:AppResources.Emergency_Line}" Clicked="EmergencyNavigate"  Margin="120,80,120,5" BindingContext="1"  FontSize="20" TextColor="White" BackgroundColor="#2196F3"/>
+            <Label Text="{x:Static resource:AppResources.Emergency_Title}" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="24"/>
+            <Button Text="{x:Static resource:AppResources.Emergency}" Clicked="EmergencyCall"  Margin="120,60,120,5" BindingContext="1"  FontSize="22" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="{x:Static resource:AppResources.Police}" Clicked="PoliceCall"  Margin="120,60,120,5" BindingContext="1"  FontSize="Large" TextColor="White" BackgroundColor="#2196F3"/>
+            <Button Text="{x:Static resource:AppResources.Ambulance}" Clicked="AmbulanceCall"  Margin="120,60,120,5" BindingContext="1"  FontSize="22" TextColor="White" BackgroundColor="#2196F3"/>
+
             <Button  Margin="120,50,120,10" Text="{x:Static resource:AppResources.BackToMainMenu}" Clicked="Back_to_Menu"   FontSize="Large" TextColor="White" BackgroundColor="#03DAC5"/>
         </StackLayout>
     </ContentPage.Content>

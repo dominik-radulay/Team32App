@@ -355,7 +355,7 @@
   <data name="French" xml:space="preserve">
     <value>Français</value>
   </data>
-  <data name="HelplineNum" xml:space="preserve">
+  <data name="Helpline_Num" xml:space="preserve">
     <value>04324 23454</value>
     <comment>Contacts</comment>
   </data>
@@ -365,6 +365,34 @@
   </data>
   <data name="Name_Holder" xml:space="preserve">
     <value>Veuillez entrer votre nom préféré</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Ambulance" xml:space="preserve">
+    <value>Ambulance</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Dial" xml:space="preserve">
+    <value>appel</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Emergency" xml:space="preserve">
+    <value>Urgence</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Emergency_Line" xml:space="preserve">
+    <value>ligne d'urgence</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Emergency_Title" xml:space="preserve">
+    <value>Sélectionnez le bouton de la ligne d'urgence que vous souhaitez appeler</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Helpline_Title" xml:space="preserve">
+    <value>Appuyez sur appeler pour appeler la ligne d'assistance avec la langue spécifiée :</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="Police" xml:space="preserve">
+    <value>Police</value>
     <comment>Contacts</comment>
   </data>
 </root>
